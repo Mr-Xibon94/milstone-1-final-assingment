@@ -33,7 +33,11 @@
 }
 
 .nav-btn {
+    display: flex;
     align-items: center;
+}
+
+.btn {
     font-size: 18px;
     font-weight: 700;
     padding: 13px 16px;
@@ -44,6 +48,6 @@
     cursor: pointer;
 }
 
-.nav-btn:hover {
+.btn:hover {
     background-color: #34e07c;
 }

@@ -113,6 +113,9 @@ p {
     border: 1px solid white;
 }
 
+.see-btn:hover {
+    background-color: rgba(255, 255, 255, 0.227);
+}
 
 .see-btn img {
     width: 20px;
@@ -127,20 +130,20 @@ p {
     padding-left: 10px;
     align-items: center;
     background-color: white;
-    padding: 6px 12px 6px 20px; 
+    padding: 6px 12px 6px 20px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
     color: #30B868;
-  
+
 }
 
 .extraimg img {
     margin-right: 8px;
 }
- 
-.extraimg h3{
+
+.extraimg h3 {
     font-size: 16px;
     font-weight: 400;
 }
@@ -152,22 +155,24 @@ p {
     padding: 0 120px 0 120px;
 }
 
-.firsbody-section{
+.firsbody-section {
     /* text-align: center;  */
     justify-items: center;
     padding-top: 50px;
 }
 
-.firsbody-section, h1 {
+.firsbody-section,
+h1 {
     font-size: 48px;
     font-weight: bold;
     color: #001931;
 }
 
-.firsbody-section, p {
+.firsbody-section,
+p {
     font-size: 16px;
     color: #627382;
-    line-height:1.5;
+    line-height: 1.5;
 }
 
 .allcard {
@@ -177,8 +182,8 @@ p {
 }
 
 .allcard .card {
-    max-width:322px;
-     min-height: 300px;
+    max-width: 322px;
+    min-height: 300px;
     text-align: center;
     justify-items: center;
     padding: 0px 24px;
@@ -202,14 +207,14 @@ p {
 .card p {
     font-size: 16px;
     color: #627382;
-    
+
 }
 
 /* here all styles are for seondbody part  */
 
 #secondbody {
     width: 1600px;
-    
+
     padding: 120px;
     /* border: 1px solid red;  */
 }
@@ -219,22 +224,18 @@ p {
     display: flex;
 }
 
-.secondbody-img {
-    /* width: 400px; */
-    /* height: 400px; */
-}
 
 .secondbody-text {
-    
+
     /* border: 1px solid red;  */
     margin: 102px 0 102px 60px;
 }
 
 .secondbody-text h4 {
-        color: #30B868;
-        font-size: 16px;
-        font-weight: 400;
-        margin-bottom: 16px;
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
 }
 
 .secondbody-text h1 {
@@ -255,10 +256,9 @@ p {
     display: flex;
     align-items: center;
     gap: 8px;
-    
+
     /* display: inline-block;  */
     font-size: 16px;
     font-weight: 300;
     margin-bottom: 14px;
 }
-

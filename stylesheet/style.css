@@ -58,7 +58,7 @@ p {
 /* here all styles for header banner  */
 
 #header-banner {
-    display: none;
+    /* display: none;  */
     /* height: 674px;  */
     max-width: 1600px;
     margin: 0px auto;

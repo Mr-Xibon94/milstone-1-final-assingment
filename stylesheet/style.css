@@ -176,7 +176,7 @@ p {
 }
 
 .allcard .card {
-    width:322px;
+    max-width:322px;
      min-height: 300px;
     text-align: center;
     justify-items: center;

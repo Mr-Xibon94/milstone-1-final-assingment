@@ -153,6 +153,7 @@ p {
 #firstbody {
     width: 1600px;
     padding: 0 120px 0 120px;
+    margin: 0 auto;
 }
 
 .firsbody-section {
@@ -214,6 +215,7 @@ p {
 
 #secondbody {
     width: 1600px;
+    margin: 0 auto;
 
     padding: 120px;
     /* border: 1px solid red;  */

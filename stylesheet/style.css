@@ -264,3 +264,38 @@ p {
     font-weight: 300;
     margin-bottom: 14px;
 }
+
+
+/* Its my third body styles  */ 
+
+#thirdbody {
+    width: 1600px;
+    margin:0 auto;
+    padding:0 120px 120px 120px; 
+}
+
+.thirdbody-main {
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+    justify-items: center;
+}
+
+.thirdbody-text {
+    text-align: center;
+    justify-items: center;
+}
+
+.thirdbody-text h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 16px;
+}
+
+.thirdbody-text p {
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 24px;
+}
+.thirdbody-text button {
+    margin-bottom: 16px;
+}

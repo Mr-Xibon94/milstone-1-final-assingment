@@ -58,6 +58,7 @@ p {
 /* here all styles for header banner  */
 
 #header-banner {
+    display: none;
     /* height: 674px;  */
     max-width: 1600px;
     margin: 0px auto;
@@ -72,21 +73,7 @@ p {
 
 }
 
-.banner-text h3 {
-    display: inline-block;
-    justify-items: center;
-    margin-bottom: 16px;
-    padding: 6px 12px 6px 34px;
-    color: #30B868;
-    font-size: 16px;
-    border: 1px solid black;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    background-color: white;
 
-}
 
 .circule {
     margin-left: 12px;
@@ -96,6 +83,7 @@ p {
     /* margin-left: 6px;  */
 
 }
+
 .banner-text h1 {
     color: white;
     font-size: 3.5em;
@@ -132,4 +120,90 @@ p {
 
 
 }
+
+.extraimg {
+    display: inline-flex;
+    justify-content: left;
+    padding-left: 10px;
+    align-items: center;
+    background-color: white;
+    padding: 6px 12px 6px 20px; 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: #30B868;
+  
+}
+
+.extraimg img {
+    margin-right: 8px;
+}
+ 
+.extraimg h3{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* here all design is for body main  */
+
+#firstbody {
+    margin: 0 120px;
+}
+
+.firsbody-section{
+    /* text-align: center;  */
+    justify-items: center;
+    padding-top: 50px;
+}
+
+.firsbody-section, h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+}
+
+.firsbody-section, p {
+    font-size: 16px;
+    color: #627382;
+    line-height:1.5;
+}
+
+.allcard {
+    display: flex;
+    margin-top: 44px;
+    gap: 24px;
+}
+
+.allcard .card {
+    width:322px;
+     min-height: 300px;
+    text-align: center;
+    justify-items: center;
+    padding: 0px 24px;
+    box-shadow: 0 4px 6px black;
+}
+
+.card img {
+    margin-top: 70px;
+    background-color: #ff0000;
+    padding: 5px;
+    border-radius: 50px;
+    margin-bottom: 16px;
+}
+
+.card h3 {
+    font-size: 24px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #627382;
+    
+}
+
+
+
 

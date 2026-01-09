@@ -148,7 +148,8 @@ p {
 /* here all design is for body main  */
 
 #firstbody {
-    margin: 0 120px;
+    width: 1600px;
+    padding: 0 120px 0 120px;
 }
 
 .firsbody-section{
@@ -204,6 +205,60 @@ p {
     
 }
 
+/* here all styles are for seondbody part  */
 
+#secondbody {
+    width: 1600px;
+    
+    padding: 120px;
+    /* border: 1px solid red;  */
+}
 
+.secondbody-main {
+    /* border: 1px solid blue;  */
+    display: flex;
+}
+
+.secondbody-img {
+    /* width: 400px; */
+    /* height: 400px; */
+}
+
+.secondbody-text {
+    
+    /* border: 1px solid red;  */
+    margin: 102px 0 102px 60px;
+}
+
+.secondbody-text h4 {
+        color: #30B868;
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 16px;
+}
+
+.secondbody-text h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.secondbody-text p {
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 40px;
+
+}
+
+.secondbody-checkicon {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    
+    /* display: inline-block;  */
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 14px;
+}
 
